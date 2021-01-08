@@ -1,6 +1,6 @@
 module "gke1" {
-  source  = "tfe.marcleblanc.2741611427.workshops.arctiq.ca/arctiq/gke/google"
-  version = "1.0.0"
+  source  = "tfe.srock-2741611427.workshops.arctiq.ca/arctiq/gke/google"
+  version = "1.1.0"
 
   # insert required variables here
   cluster_name = var.cluster_name
